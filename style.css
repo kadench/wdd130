@@ -1,6 +1,3 @@
-/* Initially show only elements with .invisible-p class */
-
-
 /* Defining CSS variables for universal use */
 :root {
     --h1-font-size: 18px;
@@ -53,20 +50,27 @@ h1.main-title {
     margin: 0 -1rem; /* Negative margin to counteract the margins for the inner divs */
 }
 
-/* Left div taking 50% of the screen width with 1rem left margin */
+/* Left div taking 33.3% of the screen width with 1rem left margin */
 .left-div {
-    flex: 1; /* Takes up 50% of the available space */
+    width: 33.3%; /* Takes up 33.3% of the available space */
     margin-left: 2rem; /* 1rem left margin */
-    background-color: var(--blue);
+    background-color: var(--gray);
     padding: 0;
     text-align: center;
 }
 
-/* Right div taking 50% of the screen width with 1rem right margin */
+.middle-div {
+    width: 33.3%; /* Takes up 33.3% of the available space */
+    background-color: var(--gray);
+    padding: 0;
+    text-align: center;
+}
+
+/* Right div taking 33.3% of the screen width with 1rem right margin */
 .right-div {
-    flex: 1; /* Takes up 50% of the available space */
+    width: 33.3%; /* Takes up 33.3% of the available space */
     margin-right: 2rem; /* 1rem right margin */
-    background-color: var(--blue);
+    background-color: var(--gray);
     padding: 0;
     text-align: center;
 }
@@ -89,18 +93,27 @@ h1.main-title {
     background-color: var(--blue);
 }
 
-/* Left div taking 50% of the screen width with 1rem left margin */
+/* Left div taking 33.3% of the screen width with 1rem left margin */
 .left-title {
-    flex: 1; /* Takes up 50% of the available space */
+    width: 33.3%; /* Takes up 33.3% of the available space */
     margin: 0 2rem 0 2rem; 
-    background-color: var(--blue);
+    background-color: var(--vi);
     padding: 0;
     text-align: center;
 }
 
-/* Right div taking 50% of the screen width with 1rem right margin */
+/* Middle div taking 33.3% of the screen width with 1rem left margin */
+.center-title {
+    width: 33.3%; /* Takes up 33.3% of the available space */
+    margin: 0 2rem 0 2rem; 
+    background-color: var(--vi);
+    padding: 0;
+    text-align: center;
+}
+
+/* Right div taking 33.3% of the screen width with 1rem right margin */
 .right-title {
-    flex: 1; /* Takes up 50% of the available space */
+    width: 33.3%; /* Takes up 33.3% of the available space */
     margin: 0 2rem 0 2rem; 
     padding: 0;
     text-align: center;
@@ -138,12 +151,20 @@ p.footer-p {
     color: var(--notice-blue);
 }
 
-.invisible-p, .invisible-h3 {
+.complete {
+    color: green;
+}
+
+.help {
+    color: rgb(170, 35, 35);
+}
+
+.invisible-p, .invisible-h3, .invisible-img {
     display: none;
 }
 
 /* Show .invisible-p when screen width is 350px or below */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 479px) {
     header, main, footer p.footer-p {
         display: none;
     }
@@ -160,11 +181,19 @@ p.footer-p {
     
     .invisible-p {
         display: block;
-        margin: .8em;
+        margin: .9em;
         font-size: var(--p-font-size);
         font-weight: 500;
         color: var(--notice-blue);
         text-align: center;
     }
+
+    .invisible-img {
+        display: block;
+        width: 100px;
+        padding: auto;
+        margin: auto;
+    }
     
 }
+
