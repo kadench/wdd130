@@ -1,0 +1,41 @@
+*, *::before, *::after {
+
+    outline: 5px green solid;
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav a {
+    width: 100%;
+    padding: 0 2% 0 2%
+}
+
+a:link {
+    background-color: rgb(166, 166, 166);
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+a:visited {
+
+}
+
+img {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+h1, nav, footer, footer p {
+    text-align: center;
+
+}
