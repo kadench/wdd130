@@ -1,5 +1,10 @@
 body {
     background-color: #fca6c9ff;
+
+}
+
+body, h1:hover {
+    color: black;
 }
 
 .header-h1 {
@@ -17,17 +22,6 @@ body {
     
 }
 
-.center-list {
-    margin: 0 auto;
-}
-
-.list {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    text-align: left;
-}
-
 .divheader-p {
 margin: 0 auto;
 width: 80%;
@@ -37,4 +31,58 @@ font-size: 12px;
 
 .header-p {
     text-align: center;
+}
+.center-list {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.list {
+    margin: 1em;
+    font-size: 13px;
+    font-weight: 799;
+    text-align: left;
+}
+
+.ol-li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: .5em;
+}
+
+.img_div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.prophet-image {
+    width: 17%;
+    height: auto;
+}
+
+.quotediv {
+    width: 35%;
+    margin: 0 auto;
+    height: 60%;
+}
+
+.quote {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.first-footer-p {
+    margin-top: 5.4em;
+}
+
+footer p {
+    margin: 0em 1em 1em 1em;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+
 }
