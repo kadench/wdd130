@@ -9,10 +9,6 @@ body {
     background-color: var(--accent1-color);
 }
 
-* {
-    outline: green 2px solid;
-}
-
 #content {
     max-width: 1600px;
     margin: 0 auto;
