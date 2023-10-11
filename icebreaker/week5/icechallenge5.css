@@ -28,6 +28,9 @@ div.img-header-div {
     height: 20%;
     margin: 1% 2% 0 2%;
     padding: 0;
-    border: 10px solid black;
+    border: .6em solid rgb(66, 62, 62);
     border-radius: 9999px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    min-width: 75px;
+
 }
