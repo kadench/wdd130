@@ -5,15 +5,34 @@
 
 body {
     background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 div.img-header-div {
     height: 60%;
 }
 
-.header-image {
-    width: 100%;
+.img-div {
+    background-image: url(images/w05_circles.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: -250px;
+    min-width: 100%;
+    height: 200px;
+    
+}
 
+.main-title {
+    text-align: right;
+    padding: 1em .8em 1em 1em;
+    color: rgb(52, 52, 52);
+    font-size: 38px;
+}
+
+.main-paragraph {
+    text-align: right;
+    padding: .5em .8em .5em .5em;
+    font-size: 25px;
 }
 
 .main-div {
