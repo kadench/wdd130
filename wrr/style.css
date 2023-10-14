@@ -26,7 +26,7 @@ body {
 
 /* #content styles (main div wrapping the entire body of the website) */
 #content {
-    max-width: 100%;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -105,12 +105,6 @@ font-family: var(--paragraph-font);
     width: 100%;
 }
 
-.mountains {
-    margin-top: 3em;
-    margin-bottom: 5em;
-    width: 75%;
-    /* margin-bottom: -0.2727em; */
-}
 
 /* .book and .join styling */
 .book, .join {
@@ -166,6 +160,14 @@ font-family: var(--paragraph-font);
     padding-bottom: 15px;
     color: var(--accent1-color);
     font-size: .8em;
+}
+
+/* .mountain styling */
+.mountains {
+    margin-top: 3em;
+    margin-bottom: 5em;
+    width: 75%;
+    /* margin-bottom: -0.2727em; */
 }
 
 /* footer styles */
