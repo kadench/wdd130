@@ -47,11 +47,15 @@ main section img {
 /* header styles */
 header {
     background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 /* nav styles */
 nav {
     background-color: var(--accent2-color);
+    display: flex;
+    justify-content: space-around;
 }
 
 /* nav a styles */
@@ -71,6 +75,8 @@ nav a:hover {
 /* #logo_link styles */
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 /* All header styles */
@@ -90,6 +96,12 @@ h2 {
     margin-top: 10px;
     font-size: 2em;
 }
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
 
 /* All paragraph styles */
 p {
