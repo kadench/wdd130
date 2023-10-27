@@ -52,7 +52,6 @@ nav a {
 
 /* nav a and hover styling */
 nav a {
-    background-color: rgba(68, 94, 77, 0);
     transition: background-color 0.2s ease-out; /* Use ease-out for the default state */
 }
 
