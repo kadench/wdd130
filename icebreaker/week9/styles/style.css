@@ -8,7 +8,7 @@ body {
     border-radius: 6px;
 }
 .headerimage {
-    border-radius: 6px 6px;
+    border-radius: 6px 6px 0px 0px;
     width: 100%;
 }
 .awesomearticle {
