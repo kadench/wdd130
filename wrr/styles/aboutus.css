@@ -280,13 +280,31 @@ img {
 
 @media screen and (max-width: 480px) {
     #hero-info-box {
-        font-size: 19px;
+        width: 73%;
+        height: 73%;
+        font-size: 19.7px;
+    }
+    #hero-p {
+        color: var(--accent1-color);
+        font-family: var(--paragraph-font);
+        text-align: center;
+        margin: 25% 0 25% 0;
+        padding: 5%;
     }
 }
 
 @media screen and (max-width: 400px) {
     #hero-info-box {
+        width: 73%;
+        height: 73%;
         font-size: 18px;
+    }
+    #hero-p {
+        color: var(--accent1-color);
+        font-family: var(--paragraph-font);
+        text-align: center;
+        margin: 25% 0 25% 0;
+        padding: 5%;
     }
 }
 
