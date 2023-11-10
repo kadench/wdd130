@@ -274,38 +274,111 @@ img {
 
 @media screen and (max-width: 768px) {
     #hero-info-box {
-        font-size: 20px;
+        width: 63%;
+        height: 63%;
+        font-size: 24px;
+        overflow: hidden;
+    }
+    #hero-p {
+        color: var(--accent1-color);
+        font-family: var(--paragraph-font);
+        text-align: center;
+        margin: 5% 0 25% 0;
+        padding: 5%;
+        width: 90%;
+
     }
 }
+
+
+@media screen and (max-width: 594px) {
+    #hero-info-box {
+        width: 73%;
+        height: 73%;
+        font-size: 27px;
+        overflow: hidden;
+    }
+    #hero-p {
+        color: var(--accent1-color);
+        font-family: var(--paragraph-font);
+        text-align: center;
+        margin: 4% 0 25% 0;
+        padding: 5%;
+        width: 90%;
+
+    }
+}
+
 
 @media screen and (max-width: 480px) {
     #hero-info-box {
         width: 73%;
         height: 73%;
-        font-size: 19.7px;
+        font-size: 26px;
+        overflow: hidden;
     }
     #hero-p {
         color: var(--accent1-color);
         font-family: var(--paragraph-font);
         text-align: center;
-        margin: 25% 0 25% 0;
+        margin: 5% 0 25% 0;
         padding: 5%;
+        width: 90%;
+
     }
 }
 
-
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 445px) {
     #hero-info-box {
         width: 73%;
         height: 73%;
-        font-size: 18px;
+        font-size: 25px;
+        overflow: hidden;
     }
     #hero-p {
         color: var(--accent1-color);
         font-family: var(--paragraph-font);
         text-align: center;
-        margin: 25% 0 25% 0;
+        margin: 5% 0 25% 0;
         padding: 5%;
+        width: 90%;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #hero-info-box {
+        width: 73%;
+        height: 73%;
+        font-size: 24.7px;
+        overflow: hidden;
+    }
+    #hero-p {
+        color: var(--accent1-color);
+        font-family: var(--paragraph-font);
+        text-align: center;
+        margin: 5% 0 25% 0;
+        padding: 5%;
+        width: 90%;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #hero-info-box {
+        width: 73%;
+        height: 73%;
+        font-size: 22px;
+        overflow: hidden;
+    }
+    #hero-p {
+        color: var(--accent1-color);
+        font-family: var(--paragraph-font);
+        text-align: center;
+        margin: 8% 0 25% 0;
+        padding: 5%;
+        width: 90%;
+
     }
 }
 
