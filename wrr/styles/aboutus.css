@@ -197,15 +197,14 @@ img {
 
 .team-icons-list {
     list-style-type: none;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
     
 }
 
 .team-icon {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    justify-self: center;
+    display: inline-block;
     padding: 0 0 0 11%;
 
 }
