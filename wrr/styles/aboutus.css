@@ -145,9 +145,13 @@ img {
 
 #team-in-grid {
     display: grid;
-    grid-template-columns: repeat(2, .5fr);
+    grid-template-columns: repeat(2, .6fr);
     justify-items: center;
     background-color: var(--secondary-color);
+}
+
+#small-only {
+    display: none;
 }
 
 #team-out-grid {
@@ -200,18 +204,93 @@ img {
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    padding: 0;
     
 }
 
 .team-icon {
     display: inline-block;
-    padding: 0 0 0 11%;
-
+    padding: 6%;
 }
 
 .team-icon:hover {
- background-image: url(images\aboutus\team-images\team-icons\hover-facebook.png);
+    text-decoration: underline;   
 }
+
+.phone-icon img:hover {
+    content: url(../images/aboutus/team-images/team-icons/hover-phone.png);
+    width: 35px;
+    height: 35px;
+}
+
+.mail-icon img:hover {
+    content: url(../images/aboutus/team-images/team-icons/hover-mail.png);
+    width: 48.9px; 
+    height: 35px;
+}
+
+.facebook-icon img:hover {
+    content: url(../images/aboutus/team-images/team-icons/hover-facebook.png);
+    width: 19.082px;
+    height: 35px;
+}
+
+.phone-icon img:visited {
+    content: url(../images/aboutus/team-images/team-icons/visited-phone.png);
+    width: 35px;
+    height: 35px;
+}
+
+.mail-icon img:visited {
+    content: url(../images/aboutus/team-images/team-icons/visited-mail.png);
+    width: 48.9px; 
+    height: 35px;
+}
+
+.facebook-icon img:visited {
+    content: url(../images/aboutus/team-images/team-icons/visited-facebook.png);
+    width: 19.082px;
+    height: 35px;
+}
+
+
+@media screen and (max-width: 1050px) {
+    #team-in-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        background-color: var(--secondary-color);
+    }
+
+    #team-out-grid {
+        display: none;
+    }
+
+    #small-only {
+        display: initial;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    #hero-info-box {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #hero-info-box {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #hero-info-box {
+        font-size: 18px;
+    }
+}
+
+
 
 /* footer styles */
 footer {
@@ -280,31 +359,6 @@ footer .social img {
         flex-grow: 1;
     }
 
-    /* #hero {
-        margin-top: 0;
-    }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
-    .home-title {
-        font-size: 25px;
-        color: var(--secondary-color);
-    }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
-    #background {
-        display: none;
-    }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    } */
     footer {
         margin-top: 25px;
     }
