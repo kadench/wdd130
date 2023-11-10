@@ -195,6 +195,25 @@ img {
 }
 
 
+.team-icons-list {
+    list-style-type: none;
+    
+}
+
+.team-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    justify-self: center;
+    padding: 0 0 0 11%;
+
+}
+
+.team-icon:hover {
+ background-image: url(images\aboutus\team-images\team-icons\hover-facebook.png);
+}
+
 /* footer styles */
 footer {
     background-color: rgb(58, 79, 65);;
