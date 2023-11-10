@@ -41,6 +41,7 @@ nav {
 /* nav a styles */
 nav a {
     height: 100%;
+    font-family: var(--paragraph-font);
     flex-grow: 1;
     display: flex; 
     align-items: center; 
@@ -323,6 +324,7 @@ footer .social img {
     
     /* nav a styles */
     nav a {
+        font-size: 1.16em;
         height: 100%;
         width: 100%;
         display: flex; 
