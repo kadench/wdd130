@@ -347,18 +347,18 @@ img {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 428px) {
     #hero-info-box {
         width: 73%;
         height: 73%;
-        font-size: 24.7px;
+        font-size: 24px;
         overflow: hidden;
     }
     #hero-p {
         color: var(--accent1-color);
         font-family: var(--paragraph-font);
         text-align: center;
-        margin: 5% 0 25% 0;
+        margin: -.6% 0 25% 0;
         padding: 5%;
         width: 90%;
 
