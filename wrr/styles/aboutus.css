@@ -187,7 +187,6 @@ img {
 }
 
 .name {
-    margin-top: px;
     color: var(--accent2-color);
 }
 
@@ -197,7 +196,6 @@ img {
 }
 
 .description {
-    padding-top: -30px;
     color: #636262;
     font-size: 2.5vh;
 }
