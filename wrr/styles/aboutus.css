@@ -382,7 +382,7 @@ img {
     }
 }
 
-@media screen and (min-width: 0px) {
+@media screen and (max-width: 319px) {
     #hero-info-box {
         width: 73%;
         height: 73%;
