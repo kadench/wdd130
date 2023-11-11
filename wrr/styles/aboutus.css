@@ -132,6 +132,7 @@ img {
     text-align: center;
     margin: 0;
     padding: 5%;
+    font-size: 25px;
 }
 
 #team-title {
@@ -369,24 +370,6 @@ img {
         width: 73%;
         height: 73%;
         font-size: 22px;
-        overflow: hidden;
-    }
-    #hero-p {
-        color: var(--accent1-color);
-        font-family: var(--paragraph-font);
-        text-align: center;
-        margin: 8% 0 25% 0;
-        padding: 5%;
-        width: 90%;
-
-    }
-}
-
-@media screen and (max-width: 319px) {
-    #hero-info-box {
-        width: 73%;
-        height: 73%;
-        font-size: 25px;
         overflow: hidden;
     }
     #hero-p {
