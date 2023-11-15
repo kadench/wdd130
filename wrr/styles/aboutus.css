@@ -69,19 +69,13 @@ nav a {
 
 /* nav a and hover styling */
 nav a {
-    transition: background-color 0.2s ease-out; /* Use ease-out for the default state */
+    transition: background-color 0.2s ease-out;
 }
 
 nav a:hover {
     
     background-color: rgba(68, 94, 77, 0.5);
     transition: background-color 0.2s ease-in;
-}
-
-/* Tell the site that it needs to tranistion back to its og state. */
-nav a:hover::after {
-    background-color: rgba(58, 79, 65, 0.8);
-    transition: background-color 0.5s ease-in;
 }
 
 
